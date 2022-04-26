@@ -19,7 +19,7 @@ def run_query(query):
 
 rows = run_query("SELECT * FROM supplier LIMIT 10;")
 
- st.write("test")
+st.write("test")
 
 # Print results.
 for row in rows:
