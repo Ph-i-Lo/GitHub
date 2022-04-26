@@ -19,8 +19,6 @@ def run_query(query):
 
 rows = run_query("SELECT * FROM supplier LIMIT 10;")
 
-st.write("test")
-
 # Print results.
 for row in rows:
     st.write(f"{row[0]} has a :{row[1]}:")
